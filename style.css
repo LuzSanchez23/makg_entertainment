@@ -3,7 +3,7 @@
   background-color: black;
   height: 7rem;
   width: 100%;
-  border: 3px black solid;
+  border-bottom: 3px red solid;
 }
 nav {
   height: 7rem;
