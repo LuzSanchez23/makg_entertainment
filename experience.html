@@ -1,12 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Google Fonts Link-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Dancing+Script&family=Indie+Flower&family=Parisienne&family=Short+Stack&family=Underdog&display=swap"
+        rel="stylesheet">
+    <!--social icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #container-nav {
+            /* background: linear-gradient(to bottom right, green, red); */
+            background-color: black;
+            height: 7rem;
+            width: 100%;
+            border-bottom: 3px red solid;
+        }
+
+        nav {
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            max-width: 60rem;
+            margin: 0 auto;
+            justify-content: space-between;
+
+        }
+
+        nav .link-item:hover {
+            color: green;
+            font-size: 30px;
+        }
+
+        .link-item {
+            color: white;
+            padding-right: 1rem;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-family: 'Short Stack', cursive;
+        }
+
+        .row {
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        img {
+            height: auto;
+            width: 230px;
+            border-radius: 50px;
+        }
+        h2 {
+            text-align: center;
+            color: goldenrod;
+            font-size: 40px;
+            margin: auto;
+            padding: 60px;
+            font-family: 'Short Stack', cursive;
+        }
+        p {
+            color: whitesmoke;
+            font-size: 25px;
+          
+        }
+
+
+        .footer-basic {
+            padding: 5px;
+            background-color: #070101;
+            color: white;
+
+        }
+
+        .footer-basic .social {
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        .footer-basic .social :hover {
+            color: green;
+        }
+
+        .footer-basic .social>a {
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            margin: 0 8px;
+            color: inherit;
+            opacity: 0.75;
+        }
+
+        .footer-basic .copyright {
+            margin-top: 5px;
+            text-align: center;
+            font-size: 20px;
+            color: #770303;
+            margin-bottom: 0;
+        }
+    </style>
+    <title>Portfolio Experience</title>
 </head>
+
 <body>
-    This is my videos pages
+    <div id="container-nav">
+        <nav>
+            <a class="link-item" href="index.html">Home</a>
+            <a class="link-item" href="experience.html">Experience</a>
+            <a class="link-item" href="booking.html">Booking</a>
+        </nav>
+    </div>
+   
+    <div class="row">
+        <div class="col-md-5">
+                <img src="img/img1.JPG">
+        </div>
+        <div class="col-md-7">
+            <h2>Weddings</h2>>
+            <h3>$300 per hour</h3>
+        </div>
+    </div>
+    <div class="row row-text">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error voluptatum tempora, libero quam molestias
+            beatae. Eveniet temporibus vitae facere aliquid quod quo sit enim unde repudiandae, eligendi laborum
+            consequuntur voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et harum iusto, quod sunt nam incidunt ipsum, perferendis quidem beatae explicabo temporibus cupiditate magnam, nisi velit voluptatibus? Eius quae ut itaque.</p>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-7">
+            <h2>Graduations</h2>
+            <h3>$200 per hour</h3>
+        </div>
+        <div class="col-md-5">
+                <img src="img/img2.JPG">
+        </div>
+        
+    </div>
+    <div class="row row-text">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error voluptatum tempora, libero quam molestias
+            beatae. Eveniet temporibus vitae facere aliquid quod quo sit enim unde repudiandae, eligendi laborum
+            consequuntur voluptas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias enim quidem non illum omnis laudantium. Temporibus molestias sint ullam, rerum voluptas exercitationem. Necessitatibus fugit fuga et possimus eligendi illum earum.</p>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-3">
+                <img src="img/img1.JPG">
+        </div>
+        <div class="col-md-7">
+            <h2>Special Events</h2>
+            <h3>$400 per hour</h3>
+        </div>
+    </div>
+    <div class="row row-text">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error voluptatum tempora, libero quam molestias
+            beatae. Eveniet temporibus vitae facere aliquid quod quo sit enim unde repudiandae, eligendi laborum
+            consequuntur voluptas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod, facilis ea iure distinctio libero tempora similique architecto. Quisquam quia accusamus, eum commodi iusto non architecto eligendi quas modi corporis!</p>
+    </div>
+<hr>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/tv/CZ-oeNSNA0c/?utm_medium=copy_link"><i
+                        class="icon ion-social-instagram"></i></a><a href="https://www.snapchat.com/"><i
+                        class="icon ion-social-snapchat"></i></a><a href="https://www.twitter.com/"><i
+                        class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/"><i
+                        class="icon ion-social-facebook"></i></a>
+            </div>
+            <p class="copyright">Social Media</p>
+        </footer>
+    </div>
 </body>
+
 </html>
